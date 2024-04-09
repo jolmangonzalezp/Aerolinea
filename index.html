@@ -23,6 +23,49 @@
       <li><a href="">Estado de vuelos</a></li>
     </div>
   </header>
+  <main>
+    <!-- Formulario de reservacion -->
+    <h1>Reserva ya</h1>
+    <form action="./" method="post">
+
+      <!-- Checkboxes para tipo de vuelo -->
+      <div class="tipo_viaje">
+        <input type="radio" name="soloIda" id="" placeholder="Solo ida">
+        <input type="radio" name="idaVuelta" id="">
+      </div>
+
+      <!-- form item -->
+      <div class="form_item">
+        <label for="">Ciudad Origen:</label>
+        <input type="date" name="originCity" id="">
+      </div>
+
+      <!-- form item -->
+      <div class="form_item">
+        <label for="">Ciudad Destino</label>
+        <input type="date" name="destinityCity" id="">
+      </div>
+
+      <!-- form item -->
+      <div class="form_item">
+        <label>N° Personas</label>
+        <input type="date" name="NPersonas2" id="">
+      </div>
+
+      <!-- form item -->
+      <div class="form_item">
+        <label for="">Fecha de salida:</label>
+        <input type="date" name="departureDate" id="">
+      </div>
+
+      <!-- form item -->
+      <div class="form_item">
+        <label for="">Fecha de llegada</label>
+        <input type="date" name="arriveDate" id="">
+      </div>
+      <button type="submit">Reservar</button>
+    </form>
+  </main>
   <div class="sidebar">
     <ul>
       <!-- Correccion de la lista -->
