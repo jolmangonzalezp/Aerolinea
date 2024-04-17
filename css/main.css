@@ -159,7 +159,7 @@ main.home form .tipo_viaje input{
     justify-content: space-around;
 }
 main.home form .form_block .form_item{
-    width: 200px;
+    width: 300px;
     height: 60px;
     margin: 10px 25px;
     display: flex;
@@ -168,7 +168,17 @@ main.home form .form_block .form_item{
 
 main.home form .form_block .form_item label{
     width: 100%;
+    height: 30px;
     font-size: 18px;
     color: #1a6db7;
 
+}
+
+main.home form .form_block .form_item input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    color: #1a6db7;
 }
