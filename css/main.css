@@ -13,23 +13,33 @@ ul, li, ol {
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 header{
     width: 90%;
-    height: 100px;
+    height: 70px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #fff;
+    padding: 0 0 0 20px;
+    margin-top: 10px;
+    border-radius: 20px;
 }
 
 header .logo{
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
 }
 
 header .logo img{
-    width: 100%;
-    border-radius: 100%;
+    width: 90%;
+    /* border-radius: 100%; */
 }
 
 header nav{
@@ -42,17 +52,123 @@ header nav ul{
     height: 100%;
     flex-direction: row;
     justify-content: center;
+}
+header nav ul li{
+    height: 100%;
+    width: auto;
+    display: flex;
     align-items: center;
+    padding: 5px;
+}
+
+header nav ul li a{
+    font-size: 20px;
+    color: #1a6db7;
+}
+
+header nav ul li:hover, header nav ul li.active{
+    background: #1a6db7;
+    border-bottom: #fff 3px solid;
+}
+
+header nav ul li:hover a, header nav ul li.active a{
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+}
+
+header .fly_state{
+    width: auto;
+    height: 100%;
+    border-radius: 20px;
+}
+
+header .fly_state li{
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+header .fly_state li a{
+    font-size: 20px;
+    color: #1a6db7;
+}
+
+header .fly_state li:hover, header .fly_state li.active{
+    background: #1a6db7;
+}
+
+header .fly_state li:hover a, header .fly_state li.active a{
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
 }
 
 main.home{
     width: 70%;
     margin: auto;
+    margin-top: 50px;
     padding: 20px;
-    background: #ddd;
+    background: rgba(0, 0, 0, .8);
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 main.home h1{
+    font-size: 65px;
     text-align: center;
+    color: #1a6db7;
+}
+
+main.home form{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main.home form .tipo_viaje{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main.home form .tipo_viaje label{
+    font-size: 18px;
+    color: #1a6db7;
+    margin-right: 10px;
+}
+
+main.home form .tipo_viaje input{
+    height: 18px;
+    width: 18px;
+    color: #1a6db7;
+    margin: 10px;
+}
+
+.form_block{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+main.home form .form_block .form_item{
+    width: 200px;
+    height: 60px;
+    margin: 10px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+main.home form .form_block .form_item label{
+    width: 100%;
+    font-size: 18px;
+    color: #1a6db7;
+
 }

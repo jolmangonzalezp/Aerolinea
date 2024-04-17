@@ -13,7 +13,7 @@
     <div class="logo"><img src="./img/logo.png" alt="" /></div>
     <nav>
       <ul>
-        <li><a href="index.html">Reserva</a></li>
+        <li class="active"><a href="index.html">Reserva</a></li>
         <li><a href="destinos.html">Destinos</a></li>
         <li><a href="">Check in</a></li>
         <li><a href="">Ayuda</a></li>
@@ -25,48 +25,52 @@
   </header>
   <main class="home">
     <!-- Formulario de reservacion -->
-    <h1>Reserva ya</h1>
+    <h1>Reserva ya!!</h1>
     <form action="./" method="post">
 
       <!-- Checkboxes para tipo de vuelo -->
       <div class="tipo_viaje">
         <input type="radio" name="soloIda" id="" placeholder="Solo ida">
+        <label for="soloIda">Solo ida</label>
         <input type="radio" name="idaVuelta" id="">
+        <label for="idaVuelta">Ida y vuelta</label>
+      </div>
+      <div class="form_block">
+        <!-- form item -->
+        <div class="form_item">
+          <label for="">Ciudad Origen:</label>
+          <input type="date" name="originCity" id="">
+        </div>
+
+        <!-- form item -->
+        <div class="form_item">
+          <label for="">Ciudad Destino</label>
+          <input type="date" name="destinityCity" id="">
+        </div>
+
+        <!-- form item -->
+        <div class="form_item">
+          <label>N° Personas</label>
+          <input type="date" name="NPersonas2" id="">
+        </div>
+
+        <!-- form item -->
+        <div class="form_item">
+          <label for="">Fecha de salida:</label>
+          <input type="date" name="departureDate" id="">
+        </div>
+
+        <!-- form item -->
+        <div class="form_item">
+          <label for="">Fecha de llegada</label>
+          <input type="date" name="arriveDate" id="">
+        </div>
       </div>
 
-      <!-- form item -->
-      <div class="form_item">
-        <label for="">Ciudad Origen:</label>
-        <input type="date" name="originCity" id="">
-      </div>
-
-      <!-- form item -->
-      <div class="form_item">
-        <label for="">Ciudad Destino</label>
-        <input type="date" name="destinityCity" id="">
-      </div>
-
-      <!-- form item -->
-      <div class="form_item">
-        <label>N° Personas</label>
-        <input type="date" name="NPersonas2" id="">
-      </div>
-
-      <!-- form item -->
-      <div class="form_item">
-        <label for="">Fecha de salida:</label>
-        <input type="date" name="departureDate" id="">
-      </div>
-
-      <!-- form item -->
-      <div class="form_item">
-        <label for="">Fecha de llegada</label>
-        <input type="date" name="arriveDate" id="">
-      </div>
       <button type="submit">Reservar</button>
       <!-- botton buscador -->
       <a href="opciones.html">
-      <botton>buscador</botton>
+        <botton>buscador</botton>
       </a>
     </form>
   </main>
