@@ -1,5 +1,58 @@
 *{
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./../img/cockpit-2576889.jpg) no-repeat;
+    background-size: cover;
+}
+
+ul, li, ol {
+    list-style: none;
+}
+
+header{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    width: 60px;
+    height: 60px;
+}
+
+header .logo img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+header nav{
+    width: auto;
+    height: 100%;
+}
+
+header nav ul{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main.home{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    background: #ddd;
+    border-radius: 20px;
+}
+
+main.home h1{
+    text-align: center;
 }
