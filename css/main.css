@@ -385,12 +385,37 @@ main.help .help-content .help-content-item-pets-block{
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding: 20px;
-
 }
 
 main.help .help-content .help-content-item-pets-block img{
     width: 300px;
     margin: auto;
+}
+
+main.help .help-content .help-content-item-pets-block p{
+   justify-content: center;
+}
+
+main.help .help-content .help-content-item-child{
+    width: 100%;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, .9);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+main.help .help-content .help-content-item-child h2 {
+    width: 100%;
+    text-align: center;
+    color: #1a6db7;
+    font-size: 60px;
+}
+
+main.help .help-content .help-content-item-child-block{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding: 20px;
 }
 
 /* Pie de pagina */
