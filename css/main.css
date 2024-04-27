@@ -414,9 +414,18 @@ main.help .help-content .help-content-item-child h2 {
 main.help .help-content .help-content-item-child-block{
     width: 100%;
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 2fr 1fr;
     padding: 20px;
 }
+
+main.help .help-content .help-content-item-child-block img{
+    width: 300px;
+    margin: auto;
+}
+
+main.help .help-content .help-content-item-child-block p{
+    justify-content: center;
+ }
 
 /* Pie de pagina */
 footer {
