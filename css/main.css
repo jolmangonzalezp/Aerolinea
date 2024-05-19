@@ -145,15 +145,13 @@ main form .tipo_viaje input {
   color: #1a6db7;
   margin: 10px;
 }
-
-.form_block {
+main form .form_block {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-row: 3;
 }
-
-main.home form .form_block .form_item {
+main form .form_block .form_item {
   width: 300px;
   height: 60px;
   margin: 5px 5px;
@@ -163,15 +161,13 @@ main.home form .form_block .form_item {
   align-items: center;
   justify-content: center;
 }
-
-main.home form .form_block .form_item label {
+main form .form_block .form_item label {
   width: 100%;
   height: 30px;
   font-size: 18px;
   color: #1a6db7;
 }
-
-main.home form .form_block .form_item input {
+main form .form_block .form_item input, main form .form_block .form_item select {
   width: 100%;
   height: 30px;
   border: none;
@@ -179,8 +175,7 @@ main.home form .form_block .form_item input {
   padding: 5px;
   color: #1a6db7;
 }
-
-main.home form .form_block .form_item button {
+main form .form_block .form_item button {
   width: 300px;
   height: 40px;
   border-radius: 20px;
@@ -196,75 +191,21 @@ aside {
   border-radius: 20px;
   padding: 10px;
 }
-
 aside .slide-cities {
   width: 200px;
   height: 100%;
   margin: auto;
 }
-
 aside .slide-cities .slide-cities-item {
   width: 100%;
   margin-bottom: 5px;
 }
-
 aside .slide-cities .slide-cities-item img {
   width: 100%;
   border-radius: 20px;
 }
 
 /* Pagina Destino */
-main.destinity {
-  width: 100%;
-  border-radius: 20px;
-  margin: auto;
-  background: rgba(255, 255, 255, 0.9);
-}
-
-main.destinity .destinity-title {
-  width: 100%;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url(./../img/santamarta.jpg);
-  border-radius: 20px 20px 0 0;
-}
-
-main.destinity .destinity-title h1 {
-  color: #1a6db7;
-  font-size: 114px;
-}
-
-main.destinity .destinity-content {
-  width: 100%;
-  margin-top: 20px;
-  padding: 10px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-
-main.destinity .destinity-content .destinity-content-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 10px 0;
-}
-
-main.destinity .destinity-content .destinity-content-item img {
-  width: 300px;
-  border-radius: 20px 20px 0 0;
-}
-
-main.destinity .destinity-content .destinity-content-item p {
-  width: 100%;
-  text-align: center;
-  margin-top: 10px;
-  font-size: 20px;
-  color: #1a6db7;
-}
-
 /* Pagina Ayuda */
 main.help {
   width: 100%;
@@ -411,7 +352,6 @@ footer {
   flex-direction: column;
   align-items: center;
 }
-
 footer .copyright {
   width: 100%;
   height: 20px;
@@ -422,12 +362,10 @@ footer .copyright {
   justify-content: center;
   align-items: center;
 }
-
 footer .copyright small {
   text-align: center;
   color: #fff;
 }
-
 footer .socialNetworks {
   width: 100%;
   height: 60px;
@@ -435,8 +373,8 @@ footer .socialNetworks {
   justify-content: center;
   align-items: center;
   padding: 5px;
+  color: #1a6db7;
 }
-
 footer .socialNetworks a {
   width: 40px;
   height: 40px;
@@ -446,8 +384,8 @@ footer .socialNetworks a {
   font-size: 22px;
   border-radius: 100%;
   margin: 0 5px;
+  color: #1a6db7;
 }
-
 footer .socialNetworks a:hover {
   background: #1a6db7;
   color: #fff;
