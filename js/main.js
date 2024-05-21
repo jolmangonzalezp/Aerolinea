@@ -171,7 +171,42 @@ function continuar(){
     .then((response) => response.json())
     .then((data) => {
       if(data[0].travel == "RoundTrip"){
-        
+        let fly = document.getElementById("flies");
+  fetch("http://localhost:3000/airports")
+    .then((response) => response.json())
+    .then((data) => {
+      for (let i = 0; i < data.length; i++) {
+        for (let j = 0; j < data.length; j++) {
+          console.log(i);
+          console.log(j);
+          if (
+            departure == resp[i].OriginCity &&
+            arrive == resp[j].DestinationCity
+          ) {
+            let orgin = resp[i].OriginCity - 1;
+            let destination = resp[j].DestinationCity - 1;
+            let new_fly = document.createElement("div");
+            new_fly.classList.add("fly");
+            new_fly.innerHTML =
+              '<div class="fly_item id="Nfly""><p>' +
+              resp[j].numberFly +
+              '</p></div><div class="fly_item" id="originC"><p>' +
+              data[orgin].iata +
+              '</p></div><div class="fly_item" id="departureH"><p>' +
+              resp[j].landingHour +
+              '</p></div><div class="fly_item" id="flyTinme"><p>' +
+              resp[j].flyTime +
+              '</p></div><div class="fly_item" id="destinationC"><p>' +
+              data[destination].iata +
+              '</p></div><div class="fly_item" id="arriveH"><p>' +
+              resp[j].arriveHour +
+              "</p></div>";
+            deleteData();
+            fly.appendChild(new_fly);
+          }
+        }
+      }
+    });
       }
     });
 }
