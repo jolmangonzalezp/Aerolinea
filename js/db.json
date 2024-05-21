@@ -1,0 +1,84 @@
+{
+  "airports": [
+    {
+      "id": "1",
+      "iata": "ADZ",
+      "name": "San Andrés"
+    },
+    {
+      "id": "2",
+      "iata": "AXM",
+      "name": "Armenia"
+    },
+    {
+      "id": "3",
+      "iata": "BAQ",
+      "name": "Barranquilla"
+    },
+    {
+      "id": "4",
+      "iata": "BGA",
+      "name": "Bucaramanga"
+    },
+    {
+      "id": "5",
+      "iata": "BOG",
+      "name": "Bogotá"
+    },
+    {
+      "id": "6",
+      "iata": "CLO",
+      "name": "Cali"
+    },
+    {
+      "id": "7",
+      "iata": "CTG",
+      "name": "Cartagena"
+    },
+    {
+      "id": "8",
+      "iata": "CUC",
+      "name": "Cucuta"
+    },
+    {
+      "id": "9",
+      "iata": "LET",
+      "name": "Leticia"
+    },
+    {
+      "id": "10",
+      "iata": "MDE",
+      "name": "Medellin"
+    },
+    {
+      "id": "11",
+      "iata": "MTR",
+      "name": "Monteria"
+    },
+    {
+      "id": "12",
+      "iata": "PEI",
+      "name": "Pereira"
+    },
+    {
+      "id": "13",
+      "iata": "SMR",
+      "name": "Santa Marta"
+    }
+  ],
+  "flies": [
+    {
+      "id": "1",
+      "numberFly": "CA1501",
+      "OriginCity": 1,
+      "DestinationCity": 13,
+      "flyTime": "1:30",
+      "landingHour": "8:00",
+      "arriveHour": "10:00"
+    }
+  ],
+  "reserva": [],
+  "prev": [
+    
+  ]
+}

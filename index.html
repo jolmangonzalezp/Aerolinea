@@ -1,119 +1,138 @@
 <!DOCTYPE html>
 <html lang="es_CO">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aerolinea</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/6b7b5c50e3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aerolinea</title>
-  <link rel="stylesheet" href="./css/main.css">
-  <script src="https://kit.fontawesome.com/6b7b5c50e3.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <header>
-    <div class="logo"><img src="./img/logo.png" alt="" /></div>
-    <nav>
-      <ul>
-        <li class="active">
-          <a href="./index.html">Reserva</a>
-        </li>
-        <li><a href="./destinos.html">Destinos</a></li>
-        <li><a href="">Check in</a></li>
-        <li><a href="./ayuda.html">Ayuda</a></li>
-      </ul>
-    </nav>
-    <div class="fly_state">
-      <li><a href="">Estado de vuelos</a></li>
-    </div>
-  </header>
-  <div class="container">
-    <main class="home">
-      <!-- Formulario de reservacion -->
-      <h1>Reserva ya!!</h1>
-      <form action="./" method="post">
-  
-        <!-- Checkboxes para tipo de vuelo -->
-        <div class="tipo_viaje">
-          <input type="radio" name="soloIda" id="" placeholder="Solo ida">
-          <label for="soloIda">Solo ida</label>
-          <input type="radio" name="idaVuelta" id="">
-          <label for="idaVuelta">Ida y vuelta</label>
-        </div>
-        <div class="form_block">
-          <!-- form item -->
-          <div class="form_item">
-            <label for="">Ciudad Origen:</label>
-            <select name="originCity" id="originCity">
-              <option name="city0" value="0" selected>Seleccione una ciudad.</option>
-            </select>
-          </div>
-  
-          <!-- form item -->
-          <div class="form_item">
-            <label for="">Ciudad Destino</label>
-            <select name="destinityCity" id="destinityCity">
-              <option value="0" selected>Seleccione una ciudad.</option>
-            </select>
-          </div>
-  
-          <!-- form item -->
-          <div class="form_item">
-            <label>N° Personas</label>
-            <input type="text" name="NPersonas2" id="">
-          </div>
-  
-          <!-- form item -->
-          <div class="form_item">
-            <label for="">Fecha de salida:</label>
-            <input type="date" name="departureDate" id="">
-          </div>
-  
-          <!-- form item -->
-          <div class="form_item">
-            <label for="">Fecha de llegada</label>
-            <input type="date" name="arriveDate" id="">
-          </div>
-          <div class="form_item">
-            <button type="submit">Reservar</button>
-          </div>
-        </div>
-      </form>
-    </main>
-    <aside>
-      <div class="slide-cities">
-        <div class="slide-cities-item">
-          <img src="./img/bogota.jpg" alt="">
-          <p>Bogota</p>
-        </div>
-        <div class="slide-cities-item">
-          <img src="./img/medellin.jpg" alt="">
-          <p>Medellin</p>
-        </div>
-        <div class="slide-cities-item">
-          <img src="./img/santamarta.jpg" alt="">
-          <p>Santa Marta</p>
-        </div>
+  <body>
+    <header>
+      <div class="logo"><img src="./img/logo.png" alt="" /></div>
+      <nav>
+        <ul>
+          <li class="active">
+            <a href="./index.html">Reserva</a>
+          </li>
+          <li><a href="./destinos.html">Destinos</a></li>
+          <li><a href="">Check in</a></li>
+          <li><a href="./ayuda.html">Ayuda</a></li>
+        </ul>
+      </nav>
+      <div class="fly_state">
+        <li><a href="">Estado de vuelos</a></li>
       </div>
-    </aside>
-  </div>
-  
-  <footer>
-    <div class="socialNetworks">
-      <a href="https://www.facebook.com/?locale=es_LA">
-        <i class="fa-brands fa-facebook-f"></i>
-      </a>
-      <a href="https://www.instagram.com/">
-        <i class="fa-brands fa-instagram"></i>
-      </a>
-      <a href="https://twitter.com/?lang=es">
-        <i class="fa-brands fa-twitter"></i>
-      </a>
-    </div>
-    <div class="copyright">
-      <small>&copy; 2024 | Todos los derechos reservados</small>
-    </div>
-  </footer>
-  <script src="./js/main.js"></script>
-</body>
+    </header>
+    <div class="container">
+      <main>
+        <!-- Formulario de reservacion -->
+        <h1>Reserva ya!!</h1>
+        <div class="messagebox" id="messagebox"></div>
+        <div class="form">
+          <div class="travel">
+            <!-- Checkboxes para tipo de vuelo -->
+            <label for="oneWay"
+              ><input value="oneWay" type="radio" name="way" id="oneWay" checked/> Solo
+              ida</label
+            >
+            <label for="roundTrip"
+              ><input
+                value="roundTrip"
+                type="radio"
+                name="way"
+                id="roundTrip"
+              />
+              Ida y vuelta</label
+            >
+          </div>
+          <div class="form_block">
+            <!-- form item -->
+            <div class="form_item">
+              <label for="originCity">Ciudad Origen:</label>
+              <select name="originCity" id="originCity" onclick="originCity()">
+                <option name="city0" value="0" selected>
+                  Seleccione una ciudad.
+                </option>
+              </select>
+            </div>
 
+            <!-- form item -->
+            <div class="form_item">
+              <label for="destinationCity">Ciudad Destino</label>
+              <select name="destinationCity" id="destinationCity" onclick="destinationCity()">
+                <option value="0" selected>Seleccione una ciudad.</option>
+              </select>
+            </div>
+
+            <!-- form item -->
+            <div class="form_item">
+              <label>N° Personas</label>
+              <input type="number" name="NPersonas" id="NPersonas" value="1"/>
+            </div>
+
+            <!-- form item -->
+            <div class="form_item">
+              <label for="">Fecha de salida:</label>
+              <input type="date" name="departureDate" id="departureDate"/>
+            </div>
+
+            <!-- form item -->
+            <div class="form_item">
+              <label for="">Fecha de llegada</label>
+              <input type="date" name="arriveDate" id="arriveDate" />
+            </div>
+
+            <div class="form_item">
+              <button type="submit" onclick="send()">Reservar</button>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <aside>
+        <div class="slide-cities">
+          <div class="slide-cities-item">
+            <img src="./img/bogota.jpg" alt="" />
+            <p>Bogota</p>
+          </div>
+          <div class="slide-cities-item">
+            <img src="./img/medellin.jpg" alt="" />
+            <p>Medellin</p>
+          </div>
+          <div class="slide-cities-item">
+            <img src="./img/santamarta.jpg" alt="" />
+            <p>Santa Marta</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="socialNetworks">
+        <a href="https://www.facebook.com/?locale=es_LA">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://twitter.com/?lang=es">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </div>
+      <div class="copyright">
+        <small>&copy; 2024 | Todos los derechos reservados</small>
+      </div>
+    </footer>
+    <!-- JS Scripts -->
+    <script src="./js/main.js"></script>
+    <script>
+      loadCities();
+    </script>
+  </body>
 </html>
