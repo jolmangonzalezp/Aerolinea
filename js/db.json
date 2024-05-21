@@ -70,7 +70,7 @@
     {
       "id": "1",
       "numberFly": "CA1501",
-      "OriginCity": 1,
+      "OriginCity": 5,
       "DestinationCity": 13,
       "flyTime": "1:30",
       "landingHour": "8:00",

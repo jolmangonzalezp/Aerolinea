@@ -1,4 +1,4 @@
-let errors = ['Se ha guardado', 'Exitosamente'];
+
 const reserve = [{ id: "abc123", oneWayFly: 1, awayFly: 1, numberpeople: 2 }];
 
 // Mostrar mensajes
@@ -13,6 +13,7 @@ function messages(message) {
 
 // Envio de datos
 function send() {
+  let errors = [];
   let typeFly = "";
   let oneWay = document.getElementById("oneWay").checked;
   if (oneWay == true) {
@@ -161,6 +162,16 @@ function loadFlies(departure, arrive, resp) {
             fly.appendChild(new_fly);
           }
         }
+      }
+    });
+}
+
+function continuar(){
+  fetch("http://localhost:3000/prev")
+    .then((response) => response.json())
+    .then((data) => {
+      if(data[0].travel == "RoundTrip"){
+        
       }
     });
 }
