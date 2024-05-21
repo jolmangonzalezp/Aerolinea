@@ -84,6 +84,15 @@
       "flyTime": "1:30",
       "landingHour": "6:00",
       "arriveHour": "7:00"
+    },
+    {
+      "id": "3",
+      "numberFly": "CA1502",
+      "OriginCity": 5,
+      "DestinationCity": 110,
+      "flyTime": "1:30",
+      "landingHour": "6:00",
+      "arriveHour": "7:00"
     }
   ],
   "reserva": [],
