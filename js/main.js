@@ -12,6 +12,10 @@ const airports = [
     {id:11, iata: "MTR", name: "Monteria"},
     {id:12, iata: "PEI", name: "Pereira"},
     {id:13, iata: "SMR", name: "Santa Marta"}
+];
+
+const flies = [
+    {id:1, numberFly: "CA1501", OriginCity: 1, DestinationCity:2, landingHour: "8:00", arriveHour: "10:00"}
 ]
 
 function loadCities(){
