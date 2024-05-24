@@ -80,7 +80,7 @@
       "id": "2",
       "numberFly": "CA1509",
       "OriginCity": 2,
-      "DestinationCity": 1,
+      "DestinationCity": 7,
       "flyTime": "2:54",
       "landingHour": "9:00",
       "arriveHour": "11:54"
@@ -183,7 +183,125 @@
       "flyTime": "2:54",
       "landingHour": "1:00",
       "arriveHour": "3:54"
+    },
+    {
+      "id": "1",
+      "numberFly": "CA1501",
+      "OriginCity": 1,
+      "DestinationCity": 13,
+      "flyTime": "2:54",
+      "landingHour": "8:00",
+      "arriveHour": "10:54"
+    },
+    {
+      "id": "2",
+      "numberFly": "CA1509",
+      "OriginCity": 2,
+      "DestinationCity": 7,
+      "flyTime": "2:54",
+      "landingHour": "9:00",
+      "arriveHour": "11:54"
+    },
+    {
+      "id": "3",
+      "numberFly": "CA1432",
+      "OriginCity": 3,
+      "DestinationCity": 11,
+      "flyTime": "3:07",
+      "landingHour": "4:00",
+      "arriveHour": "7:07"
+    },
+    {
+      "id": "4",
+      "numberFly": "CA1569",
+      "OriginCity": 4,
+      "DestinationCity": 10,
+      "flyTime": "3:07",
+      "landingHour": "6:00",
+      "arriveHour": "9:08"
+    },
+    {
+      "id": "5",
+      "numberFly": "CA1590",
+      "OriginCity": 5,
+      "DestinationCity": 1,
+      "flyTime": "2:54",
+      "landingHour": "8:00",
+      "arriveHour": "10:54"
+    },
+    {
+      "id": "6",
+      "numberFly": "CA1582",
+      "OriginCity": 6,
+      "DestinationCity": 13,
+      "flyTime": "2:54",
+      "landingHour": "2:00",
+      "arriveHour": "4:54"
+    },
+    {
+      "id": "7",
+      "numberFly": "CA1543",
+      "OriginCity": 7,
+      "DestinationCity": 6,
+      "flyTime": "2:54",
+      "landingHour": "8:00",
+      "arriveHour": "10:54"
+    },
+    {
+      "id": "8",
+      "numberFly": "CA1301",
+      "OriginCity": 8,
+      "DestinationCity": 11,
+      "flyTime": "2:54",
+      "landingHour": "4:00",
+      "arriveHour": "6:54"
+    },
+    {
+      "id": "9",
+      "numberFly": "CA8501",
+      "OriginCity": 9,
+      "DestinationCity": 2,
+      "flyTime": "2:54",
+      "landingHour": "3:00",
+      "arriveHour": "5:54"
+    },
+    {
+      "id": "10",
+      "numberFly": "CA4501",
+      "OriginCity": 10,
+      "DestinationCity": 1,
+      "flyTime": "2:54",
+      "landingHour": "12:00",
+      "arriveHour": "2:54"
+    },
+    {
+      "id": "11",
+      "numberFly": "CA1589",
+      "OriginCity": 11,
+      "DestinationCity": 13,
+      "flyTime": "2:54",
+      "landingHour": "9:00",
+      "arriveHour": "11:54"
+    },
+    {
+      "id": "12",
+      "numberFly": "CA1301",
+      "OriginCity": 12,
+      "DestinationCity": 4,
+      "flyTime": "2:54",
+      "landingHour": "7:00",
+      "arriveHour": "9:54"
+    },
+    {
+      "id": "13",
+      "numberFly": "CA1541",
+      "OriginCity": 13,
+      "DestinationCity": 9,
+      "flyTime": "2:54",
+      "landingHour": "1:00",
+      "arriveHour": "3:54"
     }
+    
     
   ],
   "reserva": [],
