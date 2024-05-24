@@ -698,15 +698,14 @@
       "arriveHour": "4:30"
     },
     {
-      
-        "id": "7",
-        "numberFly": "CA1419",
-        "OriginCity": 4,
-        "DestinationCity": 7,
-        "flyTime": "1:30",
-        "landingHour": "3:00",
-        "arriveHour": "4:30"
-      },
+      "id": "7",
+      "numberFly": "CA1419",
+      "OriginCity": 4,
+      "DestinationCity": 7,
+      "flyTime": "1:30",
+      "landingHour": "3:00",
+      "arriveHour": "4:30"
+    },
     {
       "id": "8",
       "numberFly": "CA1419",
@@ -890,8 +889,17 @@
     {
       "id": "10",
       "numberFly": "CA1419",
-      "OriginCity": 9,
-      "DestinationCity": 5,
+      "OriginCity": 10,
+      "DestinationCity": 2,
+      "flyTime": "1:30",
+      "landingHour": "3:00",
+      "arriveHour": "4:30"
+    },
+    {
+      "id": "10",
+      "numberFly": "CA1419",
+      "OriginCity": 2,
+      "DestinationCity": 10,
       "flyTime": "1:30",
       "landingHour": "3:00",
       "arriveHour": "4:30"
@@ -908,8 +916,8 @@
     {
       "id": "10",
       "numberFly": "CA1419",
-      "OriginCity": 9,
-      "DestinationCity": 5,
+      "OriginCity": 10,
+      "DestinationCity": 8,
       "flyTime": "1:30",
       "landingHour": "3:00",
       "arriveHour": "4:30"
@@ -917,8 +925,8 @@
     {
       "id": "10",
       "numberFly": "CA1419",
-      "OriginCity": 9,
-      "DestinationCity": 5,
+      "OriginCity": 8,
+      "DestinationCity": 10,
       "flyTime": "1:30",
       "landingHour": "3:00",
       "arriveHour": "4:30"
@@ -926,8 +934,8 @@
     {
       "id": "10",
       "numberFly": "CA1419",
-      "OriginCity": 9,
-      "DestinationCity": 5,
+      "OriginCity": 10,
+      "DestinationCity": 6,
       "flyTime": "1:30",
       "landingHour": "3:00",
       "arriveHour": "4:30"
@@ -935,8 +943,8 @@
     {
       "id": "10",
       "numberFly": "CA1419",
-      "OriginCity": 9,
-      "DestinationCity": 5,
+      "OriginCity": 6,
+      "DestinationCity":10,
       "flyTime": "1:30",
       "landingHour": "3:00",
       "arriveHour": "4:30"
@@ -944,8 +952,8 @@
     {
       "id": "10",
       "numberFly": "CA1419",
-      "OriginCity": 9,
-      "DestinationCity": 5,
+      "OriginCity": 10,
+      "DestinationCity": 4,
       "flyTime": "1:30",
       "landingHour": "3:00",
       "arriveHour": "4:30"
@@ -953,26 +961,53 @@
     {
       "id": "10",
       "numberFly": "CA1419",
-      "OriginCity": 9,
-      "DestinationCity": 5,
+      "OriginCity": 4,
+      "DestinationCity": 10,
       "flyTime": "1:30",
       "landingHour": "3:00",
       "arriveHour": "4:30"
     },
     {
-      "id": "10",
+      "id": "11",
       "numberFly": "CA1419",
-      "OriginCity": 9,
-      "DestinationCity": 5,
+      "OriginCity": 11,
+      "DestinationCity": 13,
       "flyTime": "1:30",
       "landingHour": "3:00",
       "arriveHour": "4:30"
     },
     {
-      "id": "10",
+      "id": "11",
       "numberFly": "CA1419",
-      "OriginCity": 9,
-      "DestinationCity": 5,
+      "OriginCity": 13,
+      "DestinationCity": 11,
+      "flyTime": "1:30",
+      "landingHour": "3:00",
+      "arriveHour": "4:30"
+    },
+    {
+      "id": "11",
+      "numberFly": "CA1419",
+      "OriginCity": 11,
+      "DestinationCity": 3,
+      "flyTime": "1:30",
+      "landingHour": "3:00",
+      "arriveHour": "4:30"
+    },
+    {
+      "id": "11",
+      "numberFly": "CA1419",
+      "OriginCity": 3,
+      "DestinationCity": 11,
+      "flyTime": "1:30",
+      "landingHour": "3:00",
+      "arriveHour": "4:30"
+    },
+    {
+      "id": "11",
+      "numberFly": "CA1419",
+      "OriginCity": 11,
+      "DestinationCity": 9,
       "flyTime": "1:30",
       "landingHour": "3:00",
       "arriveHour": "4:30"
@@ -981,6 +1016,33 @@
       "id": "11",
       "numberFly": "CA1419",
       "OriginCity": 9,
+      "DestinationCity": 11,
+      "flyTime": "1:30",
+      "landingHour": "3:00",
+      "arriveHour": "4:30"
+    },
+    {
+      "id": "11",
+      "numberFly": "CA1419",
+      "OriginCity": 11,
+      "DestinationCity": 2,
+      "flyTime": "1:30",
+      "landingHour": "3:00",
+      "arriveHour": "4:30"
+    },
+    {
+      "id": "11",
+      "numberFly": "CA1419",
+      "OriginCity": 2,
+      "DestinationCity": 11,
+      "flyTime": "1:30",
+      "landingHour": "3:00",
+      "arriveHour": "4:30"
+    },
+    {
+      "id": "11",
+      "numberFly": "CA1419",
+      "OriginCity": 11,
       "DestinationCity": 5,
       "flyTime": "1:30",
       "landingHour": "3:00",
@@ -989,8 +1051,8 @@
     {
       "id": "11",
       "numberFly": "CA1419",
-      "OriginCity": 9,
-      "DestinationCity": 5,
+      "OriginCity": 5,
+      "DestinationCity": 11,
       "flyTime": "1:30",
       "landingHour": "3:00",
       "arriveHour": "4:30"
@@ -998,71 +1060,8 @@
     {
       "id": "11",
       "numberFly": "CA1419",
-      "OriginCity": 9,
-      "DestinationCity": 5,
-      "flyTime": "1:30",
-      "landingHour": "3:00",
-      "arriveHour": "4:30"
-    },
-    {
-      "id": "11",
-      "numberFly": "CA1419",
-      "OriginCity": 9,
-      "DestinationCity": 5,
-      "flyTime": "1:30",
-      "landingHour": "3:00",
-      "arriveHour": "4:30"
-    },
-    {
-      "id": "11",
-      "numberFly": "CA1419",
-      "OriginCity": 9,
-      "DestinationCity": 5,
-      "flyTime": "1:30",
-      "landingHour": "3:00",
-      "arriveHour": "4:30"
-    },
-    {
-      "id": "11",
-      "numberFly": "CA1419",
-      "OriginCity": 9,
-      "DestinationCity": 5,
-      "flyTime": "1:30",
-      "landingHour": "3:00",
-      "arriveHour": "4:30"
-    },
-    {
-      "id": "11",
-      "numberFly": "CA1419",
-      "OriginCity": 9,
-      "DestinationCity": 5,
-      "flyTime": "1:30",
-      "landingHour": "3:00",
-      "arriveHour": "4:30"
-    },
-    {
-      "id": "11",
-      "numberFly": "CA1419",
-      "OriginCity": 9,
-      "DestinationCity": 5,
-      "flyTime": "1:30",
-      "landingHour": "3:00",
-      "arriveHour": "4:30"
-    },
-    {
-      "id": "11",
-      "numberFly": "CA1419",
-      "OriginCity": 9,
-      "DestinationCity": 5,
-      "flyTime": "1:30",
-      "landingHour": "3:00",
-      "arriveHour": "4:30"
-    },
-    {
-      "id": "11",
-      "numberFly": "CA1419",
-      "OriginCity": 9,
-      "DestinationCity": 5,
+      "OriginCity": 11,
+      "DestinationCity": 8,
       "flyTime": "1:30",
       "landingHour": "3:00",
       "arriveHour": "4:30"
@@ -1070,8 +1069,8 @@
     {
       "id": "12",
       "numberFly": "CA1419",
-      "OriginCity": 9,
-      "DestinationCity": 5,
+      "OriginCity": 8,
+      "DestinationCity": 51,
       "flyTime": "1:30",
       "landingHour": "3:00",
       "arriveHour": "4:30"
@@ -1249,5 +1248,24 @@
     }
   ],
   "reserva": [],
-  "prev": []
+  "prev": [
+    {
+      "id": "9e2e",
+      "travel": "RoundTrip",
+      "departureCity": "9",
+      "arriveCity": "11",
+      "Npax": "1",
+      "departureDate": "2024-05-21",
+      "arriveDate": "2024-05-30"
+    },
+    {
+      "id": "30ae",
+      "travel": "OneWay",
+      "departureCity": "13",
+      "arriveCity": "11",
+      "Npax": "1",
+      "departureDate": "2024-05-31",
+      "arriveDate": "2024-05-31"
+    }
+  ]
 }

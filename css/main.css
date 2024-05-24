@@ -282,6 +282,7 @@ main.help .help-content .help-content-item-luggage .help-content-item-luggage-bl
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  
 }
 
 main.help .help-content .help-content-item-luggage .help-content-item-luggage-item {
