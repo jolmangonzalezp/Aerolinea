@@ -118,8 +118,8 @@
       "OriginCity": 6,
       "DestinationCity": 7,
       "flyTime": "2:54",
-      "landingHour": "8:00",
-      "arriveHour": "10:54"
+      "landingHour": "2:00",
+      "arriveHour": "4:54"
     },
     {
       "id": "7",
@@ -136,8 +136,8 @@
       "OriginCity": 8,
       "DestinationCity": 9,
       "flyTime": "2:54",
-      "landingHour": "8:00",
-      "arriveHour": "10:54"
+      "landingHour": "4:00",
+      "arriveHour": "6:54"
     },
     {
       "id": "9",
@@ -145,8 +145,8 @@
       "OriginCity": 9,
       "DestinationCity": 10,
       "flyTime": "2:54",
-      "landingHour": "8:00",
-      "arriveHour": "10:54"
+      "landingHour": "3:00",
+      "arriveHour": "5:54"
     },
     {
       "id": "10",
@@ -154,8 +154,8 @@
       "OriginCity": 10,
       "DestinationCity": 11,
       "flyTime": "2:54",
-      "landingHour": "8:00",
-      "arriveHour": "10:54"
+      "landingHour": "12:00",
+      "arriveHour": "2:54"
     },
     {
       "id": "11",
@@ -163,17 +163,17 @@
       "OriginCity": 11,
       "DestinationCity": 12,
       "flyTime": "2:54",
-      "landingHour": "8:00",
-      "arriveHour": "10:54"
+      "landingHour": "9:00",
+      "arriveHour": "11:54"
     },
     {
       "id": "12",
       "numberFly": "CA1301",
       "OriginCity": 12,
-      "DestinationCity": 13,
+      "DestinationCity": 1,
       "flyTime": "2:54",
-      "landingHour": "8:00",
-      "arriveHour": "10:54"
+      "landingHour": "7:00",
+      "arriveHour": "9:54"
     },
     {
       "id": "13",
@@ -181,8 +181,8 @@
       "OriginCity": 13,
       "DestinationCity": 12,
       "flyTime": "2:54",
-      "landingHour": "8:00",
-      "arriveHour": "10:54"
+      "landingHour": "1:00",
+      "arriveHour": "3:54"
     }
     
   ],
